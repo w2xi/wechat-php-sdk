@@ -51,7 +51,7 @@ $signPackage = $jssdk->GetSignPackage();
 		wx.updateAppMessageShareData({ // 自定义“分享给朋友”及“分享到QQ”按钮的分享内容
 		    title: '每天一遍，防止变老', // 分享标题
 		    desc: '每天一遍，防止变老', // 分享描述
-		    link: 'http://test.eamhere.xyz/wxshare.html', // 分享链接，该链接域名或路径必须与当前页面对应的公众号JS安全域名一致
+		    link: 'http://www.example.com/example.php', // 分享链接，该链接域名或路径必须与当前页面对应的公众号JS安全域名一致
 		    imgUrl: 'http://i2.hdslb.com/bfs/archive/9e06f76551541500ce390f7f3d23279d26969489.jpg@380w_240h_100Q_1c.webp', // 分享图标
 		    success: function () {
 		      
@@ -60,7 +60,7 @@ $signPackage = $jssdk->GetSignPackage();
 		
 		wx.updateTimelineShareData({ // 自定义“分享到朋友圈”及“分享到QQ空间”按钮的分享内容
 		    title: '每天一遍，防止变老', // 分享标题
-		    link: 'http://test.eamhere.xyz/wxshare.html', // 分享链接，该链接域名或路径必须与当前页面对应的公众号JS安全域名一致
+		    link: 'http://www.example.com/example.php', // 分享链接，该链接域名或路径必须与当前页面对应的公众号JS安全域名一致
 		    imgUrl: 'http://i2.hdslb.com/bfs/archive/9e06f76551541500ce390f7f3d23279d26969489.jpg@380w_240h_100Q_1c.webp', // 分享图标
 		    success: function () {
 		      // 设置成功

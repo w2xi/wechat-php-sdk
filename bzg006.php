@@ -121,7 +121,7 @@ class wechat {
 	// 1 第一步：用户同意授权，获取code
 	// public function getBaseInfoCode()
 	// {
-	// 	$redirect_uri = urlencode('http://test.eamhere.xyz/bzg006.php');
+	// 	$redirect_uri = urlencode('http://www.example.com/example.php');
 	// 	$url = 'https://open.weixin.qq.com/connect/oauth2/authorize?appid='.APPID.'&redirect_uri='.$redirect_uri.'&response_type=code&scope=snsapi_base&state=STATE#wechat_redirect';
 	// 	header('Location: '.$url); // 页面将跳转至 redirect_uri/?code=CODE&state=STATE
 	// }
@@ -189,8 +189,8 @@ class wechat {
 				], //	一级菜单
 				[
 					"type"	=>	"view",
-		            "name"	=>	urlencode("好早网"),
-		            "url"	=>	"http://www.eamhere.xyz",		
+		            "name"	=>	urlencode("示例"),
+		            "url"	=>	"http://www.example.com",		
 				],//	一级菜单
 			]
 		];
